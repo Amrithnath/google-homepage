@@ -1,0 +1,24 @@
+{
+  "name": "google-homepage",
+  "version": "1.0.0",
+  "description": "A mock of the https://google.com page for learning purposes From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amrithnath/google-homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amrithnath/google-homepage/issues"
+  },
+  "homepage": "https://github.com/Amrithnath/google-homepage#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "path": "^0.12.7"
+  }
+}
