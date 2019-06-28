@@ -28,7 +28,6 @@
     grid-area: search;
     position: relative;
     text-align: center;
-    align-items: right;
     transition: box-shadow .2s;
     background-color: transparent;
     border: 1px solid #dfe1e5;
@@ -41,11 +40,30 @@
     word-wrap: break-word;
     outline: none;
 }
-
-.searchBar img{
+.image-holder{
+    background-color: transparent;
+}
+.searchBar .image-holder img{
     position: absolute;
     text-align: right;
     width:4%;
+}
+.image-holder{
+    border: none;
+    width:7%;
+}
+.tooltip-text {
+    position: relative;
+    visibility: hidden;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: right;
+    border-radius: 6px;
+    padding: 5px 0;
+  }
+.image-holder:hover .tooltip-text{
+    visibility: visible;
 }
 .search{
     border:none;
@@ -54,9 +72,11 @@
     width:91%;
 }
 .searchBar:focus{
+    visibility: visible;
     box-shadow:0 0 11px rgba(33,33,33,.2);
 }
 .searchBar:hover{
+    visibility: visible;
     box-shadow:0 0 11px rgba(33,33,33,.2);
 }
 .buttons{
