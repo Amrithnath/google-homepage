@@ -1,11 +1,11 @@
 .container{
     font-family: arial, sans-serif;
-    display: grid;
+    display:grid;
     grid-template-columns: 2% 23% auto 23% 2%;
     /* grid-template-rows: 1% 5% 10% auto 2% 10% 2% 10% 2% 8% 15% 5% 5%; */
-    grid-template-rows: auto;
+    grid-template-rows: 2% 15% 3% 20% 3% 20% auto 2% 20% 3% 10% 10% 2%;
     /* grid-gap: 2%; */
-    align-content: space-between;
+    /* align-content: space-between; */
     justify-content: space-between;	
     grid-template-areas: 
     '. . . . .'
@@ -20,7 +20,8 @@
     '. . lang . .'
     '. . . . .'
     'footer footer footer footer footer'
-    'footer footer footer footer footer';
+    'footer footer footer footer footer'
+    '. . . . .';
 }
 
 .nav{
